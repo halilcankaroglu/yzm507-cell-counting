@@ -1,37 +1,7 @@
 exp_id,intensity,filters,seg,morph,params,count_MAE,RMSE,bias,time_s,note
-E01,none,none,otsu,none,"{""min_area"": 0}",771.2,779.04,771.2,0.0153,baseline min_area=0
-E02,none,none,otsu,none,"{""min_area"": 50}",3.9,4.76,0.5,0.0278,baseline min_area=50
-E03,none,none,otsu,none,"{""min_area"": 200}",9.0,9.3,-9.0,0.0278,baseline min_area=200
-E04,none,none,otsu,none,"{""min_area"": 500}",11.3,11.58,-11.3,0.0287,baseline min_area=500
-E05,none,none,otsu,none,"{""min_area"": 1000}",11.7,12.01,-11.7,0.0271,baseline min_area=1000
-E06,none,none,otsu,none,"{""min_area"": 100}",5.6,6.02,-5.6,0.0287,baseline min_area=100
-E07,stretch,none,otsu,none,"{""min_area"": 50, ""p_lo"": 1, ""p_hi"": 99.8}",3.0,3.82,-0.4,0.0499,yoğunluk: stretch
-E08,histeq,none,otsu,none,"{""min_area"": 50}",432.4,447.1,432.4,0.0499,yoğunluk: histeq
-E09,clahe,none,otsu,none,"{""min_area"": 50, ""clip"": 2.0, ""tile"": 8}",4.7,5.34,-4.5,0.036,yoğunluk: clahe
-E10,gamma,none,otsu,none,"{""min_area"": 50, ""gamma"": 0.5}",72.7,159.49,70.9,0.0369,yoğunluk: gamma
-E11,stretch,gauss3,otsu,none,"{""min_area"": 50, ""p_lo"": 1, ""p_hi"": 99.8}",2.9,3.65,0.5,0.0539,filtre (taban E07)
-E12,stretch,gauss5,otsu,none,"{""min_area"": 50, ""p_lo"": 1, ""p_hi"": 99.8}",3.9,4.83,-0.9,0.0479,filtre (taban E07)
-E13,stretch,gauss9,otsu,none,"{""min_area"": 50, ""p_lo"": 1, ""p_hi"": 99.8}",4.2,5.12,-2.8,0.0493,filtre (taban E07)
-E14,stretch,median5,otsu,none,"{""min_area"": 50, ""p_lo"": 1, ""p_hi"": 99.8}",4.8,6.12,-1.8,0.048,filtre (taban E07)
-E15,stretch,sharpen3,otsu,none,"{""min_area"": 50, ""p_lo"": 1, ""p_hi"": 99.8}",5.4,6.53,5.4,0.0529,filtre (taban E07)
-E16,stretch,gauss5+sharpen3,otsu,none,"{""min_area"": 50, ""p_lo"": 1, ""p_hi"": 99.8}",4.4,5.6,2.6,0.0505,filtre (taban E07)
-E17,stretch,gauss3,fixed,none,"{""min_area"": 50, ""p_lo"": 1, ""p_hi"": 99.8, ""thresh"": 10}",3.9,4.44,3.9,0.0493,segmentasyon (taban E11)
-E18,stretch,gauss3,fixed,none,"{""min_area"": 50, ""p_lo"": 1, ""p_hi"": 99.8, ""thresh"": 15}",3.8,4.34,3.8,0.0568,segmentasyon (taban E11)
-E19,stretch,gauss3,fixed,none,"{""min_area"": 50, ""p_lo"": 1, ""p_hi"": 99.8, ""thresh"": 20}",1.8,2.28,-0.2,0.0569,segmentasyon (taban E11)
-E20,stretch,gauss3,fixed,none,"{""min_area"": 50, ""p_lo"": 1, ""p_hi"": 99.8, ""thresh"": 25}",3.6,4.29,3.4,0.057,segmentasyon (taban E11)
-E21,stretch,gauss3,adaptive,none,"{""min_area"": 50, ""p_lo"": 1, ""p_hi"": 99.8, ""block"": 101, ""C"": -5}",9.4,9.61,9.4,0.1133,segmentasyon (taban E11)
-E22,stretch,gauss3,adaptive,none,"{""min_area"": 50, ""p_lo"": 1, ""p_hi"": 99.8, ""block"": 101, ""C"": -10}",6.5,6.86,6.5,0.1151,segmentasyon (taban E11)
-E23,stretch,gauss3,adaptive,none,"{""min_area"": 50, ""p_lo"": 1, ""p_hi"": 99.8, ""block"": 201, ""C"": -5}",6.6,7.11,6.6,0.1376,segmentasyon (taban E11)
-E24,stretch,gauss3,triangle,none,"{""min_area"": 50, ""p_lo"": 1, ""p_hi"": 99.8}",5.1,5.63,5.1,0.0472,segmentasyon (taban E11)
-E25,stretch,gauss3,fixed,erode3,"{""min_area"": 50, ""p_lo"": 1, ""p_hi"": 99.8, ""thresh"": 20}",1.8,2.0,0.8,0.0446,morfoloji (taban E19)
-E26,stretch,gauss3,fixed,dilate3,"{""min_area"": 50, ""p_lo"": 1, ""p_hi"": 99.8, ""thresh"": 20}",3.0,3.29,3.0,0.0425,morfoloji (taban E19)
-E27,stretch,gauss3,fixed,open3,"{""min_area"": 50, ""p_lo"": 1, ""p_hi"": 99.8, ""thresh"": 20}",2.0,2.41,0.6,0.0439,morfoloji (taban E19)
-E28,stretch,gauss3,fixed,close5,"{""min_area"": 50, ""p_lo"": 1, ""p_hi"": 99.8, ""thresh"": 20}",1.4,1.55,0.6,0.0444,morfoloji (taban E19)
-E29,stretch,gauss3,fixed,close5,"{""min_area"": 50, ""p_lo"": 1, ""p_hi"": 99.8, ""thresh"": 20, ""fill_holes"": true}",1.4,1.55,0.6,0.0981,morfoloji (taban E19)
-E30,stretch,gauss3,fixed,close9,"{""min_area"": 50, ""p_lo"": 1, ""p_hi"": 99.8, ""thresh"": 20, ""fill_holes"": true}",1.9,2.21,1.3,0.0977,morfoloji (taban E19)
-E31,stretch,gauss3,fixed,open3+close7,"{""min_area"": 50, ""p_lo"": 1, ""p_hi"": 99.8, ""thresh"": 20, ""fill_holes"": true}",1.5,1.97,-0.9,0.0966,morfoloji (taban E19)
-E32,stretch,gauss3,fixed,close7+open3,"{""min_area"": 50, ""p_lo"": 1, ""p_hi"": 99.8, ""thresh"": 20, ""fill_holes"": true}",1.9,2.17,0.9,0.1624,morfoloji (taban E19)
-E33,stretch,gauss3,fixed,close5,"{""min_area"": 50, ""p_lo"": 1, ""p_hi"": 99.8, ""thresh"": 20, ""split"": ""watershed"", ""min_dist"": 20}",1.6,1.84,1.0,0.2879,E28 + watershed
-E34,stretch,gauss3,fixed,close5,"{""min_area"": 50, ""p_lo"": 1, ""p_hi"": 99.8, ""thresh"": 15}",4.0,4.36,4.0,0.0469,"E28, eşik 15"
-E35,stretch,gauss3,triangle,close5,"{""min_area"": 50, ""p_lo"": 1, ""p_hi"": 99.8, ""fill_holes"": true}",2.1,2.47,2.1,0.1029,Pipeline C (triangle)
-E36,stretch,gauss3,adaptive,open3+close5,"{""min_area"": 50, ""p_lo"": 1, ""p_hi"": 99.8, ""block"": 201, ""C"": -10, ""fill_holes"": true}",1.5,1.7,0.7,0.1801,Pipeline D (adaptif + open/close)
+E01,none,none,otsu,none,"{""min_area"": 0}",771.2,779.04,771.2,0.0152,baseline min_area=0
+E02,none,none,otsu,none,"{""min_area"": 50}",3.9,4.76,0.5,0.0288,baseline min_area=50
+E03,none,none,otsu,none,"{""min_area"": 200}",9.0,9.3,-9.0,0.0294,baseline min_area=200
+E04,none,none,otsu,none,"{""min_area"": 500}",11.3,11.58,-11.3,0.0281,baseline min_area=500
+E05,none,none,otsu,none,"{""min_area"": 1000}",11.7,12.01,-11.7,0.0287,baseline min_area=1000
+E06,none,none,otsu,none,"{""min_area"": 100}",5.6,6.02,-5.6,0.0278,baseline min_area=100
