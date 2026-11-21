@@ -147,7 +147,6 @@ Bu çalışmada **Claude (Anthropic)** bir yardımcı olarak kullanılmıştır.
   kodla yapılmıştır.
 - Test sızıntısını önleme kuralları (kilit commit'i, `test-lock` tag'i, SHA-256 doğrulaması) yapay zekâ
   kullanımından bağımsız olarak uygulanmıştır.
-- Yorumlar yazar tarafından kontrol edilmiştir; çalışmanın içeriğinin sorumluluğu yazara aittir.
 
 ## Kaynaklar
 - Maška, M., et al. (2023). The Cell Tracking Challenge: 10 years of objective benchmarking. *Nature Methods*, 20, 1010–1020.
