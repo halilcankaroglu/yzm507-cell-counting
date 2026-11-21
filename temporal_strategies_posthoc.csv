@@ -1,0 +1,9 @@
+yöntem,strateji,MAE,RMSE,Bias,ort_|Δ|
+Baseline,Ham (kilitli),8.667,9.812,1.067,1.667
+Baseline,Kayan ortanca w=3,8.8,9.832,0.933,0.917
+Baseline,Kayan ortanca w=5,8.933,9.913,0.933,0.833
+Baseline,Blok ortancası,9.4,10.428,1.0,0.0
+Nihai (D),Ham (kilitli),2.133,2.556,2.133,1.917
+Nihai (D),Kayan ortanca w=3,2.267,2.683,2.267,0.917
+Nihai (D),Kayan ortanca w=5,2.2,2.463,2.2,1.0
+Nihai (D),Blok ortancası,1.6,1.789,1.333,0.0
