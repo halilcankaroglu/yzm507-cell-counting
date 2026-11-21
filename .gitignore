@@ -1,4 +1,5 @@
 data/
+figures/
 *.zip
 *.tif
 .ipynb_checkpoints/
