@@ -1,0 +1,3 @@
+method,MAE,RMSE,Bias,Exact_acc,time_s
+Baseline,8.667,9.812,1.067,0.0,0.0284
+Nihai (D),2.133,2.556,2.133,0.067,0.1887
