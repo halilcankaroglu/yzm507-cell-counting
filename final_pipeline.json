@@ -1,0 +1,47 @@
+{
+  "seed": 31042,
+  "final_pipeline_name": "D",
+  "final_pipeline": {
+    "intensity": "stretch",
+    "filters": [
+      [
+        "gauss",
+        3
+      ]
+    ],
+    "seg": "adaptive",
+    "morph": [
+      [
+        "open",
+        3
+      ],
+      [
+        "close",
+        5
+      ]
+    ],
+    "min_area": 50,
+    "p_lo": 1,
+    "p_hi": 99.8,
+    "block": 201,
+    "C": -10,
+    "fill_holes": true
+  },
+  "baseline": {
+    "intensity": "none",
+    "filters": [],
+    "seg": "otsu",
+    "morph": [],
+    "min_area": 50
+  },
+  "selection_rule": "en düşük val_MAE; eşitlikte val_RMSE, süre, karmaşıklık",
+  "validation_summary": {
+    "pipeline": "D",
+    "dev_MAE": 1.5,
+    "val_MAE": 1.0,
+    "val_RMSE": 1.342,
+    "val_bias": 0.6,
+    "time_s": 0.1778,
+    "complexity": 5
+  }
+}
