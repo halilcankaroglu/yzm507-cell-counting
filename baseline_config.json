@@ -1,0 +1,7 @@
+{
+  "intensity": "none",
+  "filters": [],
+  "seg": "otsu",
+  "morph": [],
+  "min_area": 50
+}

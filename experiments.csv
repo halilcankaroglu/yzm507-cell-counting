@@ -1,0 +1,7 @@
+exp_id,intensity,filters,seg,morph,params,count_MAE,RMSE,bias,time_s,note
+E01,none,none,otsu,none,"{""min_area"": 0}",771.2,779.04,771.2,0.0126,baseline min_area taraması (0 px)
+E02,none,none,otsu,none,"{""min_area"": 50}",3.9,4.76,0.5,0.0503,baseline min_area taraması (50 px)
+E03,none,none,otsu,none,"{""min_area"": 200}",9.0,9.3,-9.0,0.0757,baseline min_area taraması (200 px)
+E04,none,none,otsu,none,"{""min_area"": 500}",11.3,11.58,-11.3,0.1068,baseline min_area taraması (500 px)
+E05,none,none,otsu,none,"{""min_area"": 1000}",11.7,12.01,-11.7,0.115,baseline min_area taraması (1000 px)
+E06,none,none,otsu,none,"{""min_area"": 100}",5.6,6.02,-5.6,0.0363,baseline min_area taraması (100 px)
