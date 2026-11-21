@@ -1,0 +1,5 @@
+data/
+*.zip
+*.tif
+.ipynb_checkpoints/
+__pycache__/
