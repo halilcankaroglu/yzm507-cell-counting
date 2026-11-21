@@ -33,3 +33,5 @@ E31,stretch,gauss3,fixed,open3+close7,"{""min_area"": 50, ""p_lo"": 1, ""p_hi"":
 E32,stretch,gauss3,fixed,close7+open3,"{""min_area"": 50, ""p_lo"": 1, ""p_hi"": 99.8, ""thresh"": 20, ""fill_holes"": true}",1.9,2.17,0.9,0.1716,morfoloji (taban E19)
 E33,stretch,gauss3,fixed,close5,"{""min_area"": 50, ""p_lo"": 1, ""p_hi"": 99.8, ""thresh"": 20, ""split"": ""watershed"", ""min_dist"": 20}",1.6,1.84,1.0,0.2138,E28 + watershed
 E34,stretch,gauss3,fixed,close5,"{""min_area"": 50, ""p_lo"": 1, ""p_hi"": 99.8, ""thresh"": 15}",4.0,4.36,4.0,0.0421,"E28, eşik 15"
+E35,stretch,gauss3,triangle,close5,"{""min_area"": 50, ""p_lo"": 1, ""p_hi"": 99.8, ""fill_holes"": true}",2.1,2.47,2.1,0.1048,Pipeline C (triangle)
+E36,stretch,gauss3,adaptive,open3+close5,"{""min_area"": 50, ""p_lo"": 1, ""p_hi"": 99.8, ""block"": 201, ""C"": -10, ""fill_holes"": true}",1.5,1.7,0.7,0.1973,Pipeline D (adaptif + open/close)
