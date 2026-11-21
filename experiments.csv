@@ -5,3 +5,13 @@ E03,none,none,otsu,none,"{""min_area"": 200}",9.0,9.3,-9.0,0.0428,baseline min_a
 E04,none,none,otsu,none,"{""min_area"": 500}",11.3,11.58,-11.3,0.0289,baseline min_area=500
 E05,none,none,otsu,none,"{""min_area"": 1000}",11.7,12.01,-11.7,0.0297,baseline min_area=1000
 E06,none,none,otsu,none,"{""min_area"": 100}",5.6,6.02,-5.6,0.0287,baseline min_area=100
+E07,stretch,none,otsu,none,"{""min_area"": 50, ""p_lo"": 1, ""p_hi"": 99.8}",3.0,3.82,-0.4,0.0464,yoğunluk: stretch
+E08,histeq,none,otsu,none,"{""min_area"": 50}",432.4,447.1,432.4,0.055,yoğunluk: histeq
+E09,clahe,none,otsu,none,"{""min_area"": 50, ""clip"": 2.0, ""tile"": 8}",4.7,5.34,-4.5,0.038,yoğunluk: clahe
+E10,gamma,none,otsu,none,"{""min_area"": 50, ""gamma"": 0.5}",72.7,159.49,70.9,0.0368,yoğunluk: gamma
+E11,stretch,gauss3,otsu,none,"{""min_area"": 50, ""p_lo"": 1, ""p_hi"": 99.8}",2.9,3.65,0.5,0.0518,filtre (taban E07)
+E12,stretch,gauss5,otsu,none,"{""min_area"": 50, ""p_lo"": 1, ""p_hi"": 99.8}",3.9,4.83,-0.9,0.0471,filtre (taban E07)
+E13,stretch,gauss9,otsu,none,"{""min_area"": 50, ""p_lo"": 1, ""p_hi"": 99.8}",4.2,5.12,-2.8,0.049,filtre (taban E07)
+E14,stretch,median5,otsu,none,"{""min_area"": 50, ""p_lo"": 1, ""p_hi"": 99.8}",4.8,6.12,-1.8,0.0505,filtre (taban E07)
+E15,stretch,sharpen3,otsu,none,"{""min_area"": 50, ""p_lo"": 1, ""p_hi"": 99.8}",5.4,6.53,5.4,0.0522,filtre (taban E07)
+E16,stretch,gauss5+sharpen3,otsu,none,"{""min_area"": 50, ""p_lo"": 1, ""p_hi"": 99.8}",4.4,5.6,2.6,0.0502,filtre (taban E07)
