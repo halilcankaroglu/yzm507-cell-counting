@@ -133,6 +133,22 @@ sonuçlar yöntem seçiminde kullanılmamıştır.
   parçacık) ile 35 kaçırmanın farkıdır. Birleşme gözlenmemiştir.
 - **Nesne düzeyinde doğruluk:** F1 = 0.88 (baseline 0.58); recall %91.6, precision %85.0.
 
+## Yapay zekâ kullanımı hakkında bilgilendirme
+Bu çalışmada **Claude (Anthropic)** bir yardımcı olarak kullanılmıştır. Kullanım kapsamı:
+- Ödev yönergesinin adım adım yorumlanması ve iş planının çıkarılması,
+- Kod taslaklarının hazırlanması (veri seçimi, pipeline fonksiyonları, deney kaydı, değerlendirme, şekiller),
+- Hata ayıklama (Colab, git ve GitHub iş akışı dahil),
+- Deney çıktılarının yorumlanmasına ve raporun yapılandırılmasına destek.
+
+Çalışmanın yürütülmesi ve doğrulanması:
+- Kodların tamamı yazar tarafından Colab'da çalıştırılmış; ara çıktılar ve görseller her aşamada incelenmiştir.
+- Raporlanan bütün sayısal sonuçlar kod tarafından hesaplanmıştır; hiçbir değer elle girilmemiştir.
+- Yöntem ve parametre seçimleri elle değil, önceden tanımlanmış kurallarla (`best_of`, doğrulama sıralaması)
+  kodla yapılmıştır.
+- Test sızıntısını önleme kuralları (kilit commit'i, `test-lock` tag'i, SHA-256 doğrulaması) yapay zekâ
+  kullanımından bağımsız olarak uygulanmıştır.
+- Yorumlar yazar tarafından kontrol edilmiştir; çalışmanın içeriğinin sorumluluğu yazara aittir.
+
 ## Kaynaklar
 - Maška, M., et al. (2023). The Cell Tracking Challenge: 10 years of objective benchmarking. *Nature Methods*, 20, 1010–1020.
 - Otsu, N. (1979). A threshold selection method from gray-level histograms. *IEEE Trans. SMC*, 9(1), 62–66.
