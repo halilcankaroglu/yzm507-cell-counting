@@ -103,6 +103,8 @@ jupyter notebook main.ipynb
 | 14 | Test değerlendirmesi (referanslar ilk kez burada okunur) |
 | 15 | Zorunlu şekiller (pipeline aşamaları, zamansal grafik, örnekler) |
 | 16–18 | 9. hafta dersi sonrası eklemeler (aşağıda) |
+| 19 | Geliştirme karelerinin görsel galerisi (yönerge 10.6) |
+| 20 | Rapor şekillerinin okunaklı yeniden üretimi |
 
 ## Dosyalar
 | Dosya | İçerik |
